@@ -34,11 +34,9 @@ def close_the_browser
 end
 
 goto_the_puppy_adoption_site
-#sleep 5
 adopt_puppy_numer 1
 continue_adopting_puppies
 adopt_puppy_numer 2
 checkout_with('Tuan Nguyen', 'Test Address', 'tuan.nguyen@example.com', 'Credit card')
 verify_page_contains 'Thank you for adopting a puppy!'
-#sleep 5
 close_the_browser
